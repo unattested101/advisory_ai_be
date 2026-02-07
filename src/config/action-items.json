@@ -1,0 +1,162 @@
+[
+  {
+    "id": "meeting-a1b2c3d4-1111-4000-a000-000000000001",
+    "clientId": "client-001",
+    "botId": "bot-dummy-001",
+    "meetingDate": "2026-02-05T10:00:00.000Z",
+    "actionItems": [
+      {
+        "id": "item-0001-aaaa-bbbb-cccc-000000000001",
+        "text": "Review James's gilt allocation given the BoE rate hold — consider trimming UK Gilts 10Y",
+        "assignee": "Advisor",
+        "done": false,
+        "dueDate": "2026-02-07T10:00:00.000Z"
+      },
+      {
+        "id": "item-0001-aaaa-bbbb-cccc-000000000002",
+        "text": "Send James updated Battersea flat shortlist with prices under £550k",
+        "assignee": "Advisor",
+        "done": false,
+        "dueDate": "2026-02-07T10:00:00.000Z"
+      },
+      {
+        "id": "item-0001-aaaa-bbbb-cccc-000000000003",
+        "text": "Schedule follow-up call to discuss mortgage pre-approval options",
+        "assignee": "Advisor",
+        "done": false,
+        "dueDate": "2026-02-07T10:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "meeting-a1b2c3d4-2222-4000-a000-000000000002",
+    "clientId": "client-002",
+    "botId": "bot-dummy-002",
+    "meetingDate": "2026-02-06T14:30:00.000Z",
+    "actionItems": [
+      {
+        "id": "item-0002-aaaa-bbbb-cccc-000000000001",
+        "text": "Research clean energy ETFs for Priya's growth portfolio — shortlist 3 options",
+        "assignee": "Advisor",
+        "done": false,
+        "dueDate": "2026-02-08T14:30:00.000Z"
+      },
+      {
+        "id": "item-0002-aaaa-bbbb-cccc-000000000002",
+        "text": "Priya to send proof of funds for Croydon buy-to-let deposit",
+        "assignee": "Client",
+        "done": false,
+        "dueDate": "2026-02-08T14:30:00.000Z"
+      },
+      {
+        "id": "item-0002-aaaa-bbbb-cccc-000000000003",
+        "text": "Review Bitcoin exposure — consider reducing from 9% to 5% given volatility",
+        "assignee": "Advisor",
+        "done": false,
+        "dueDate": "2026-02-08T14:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "meeting-a1b2c3d4-3333-4000-a000-000000000003",
+    "clientId": "client-003",
+    "botId": "bot-dummy-003",
+    "meetingDate": "2026-02-04T09:00:00.000Z",
+    "actionItems": [
+      {
+        "id": "item-0003-aaaa-bbbb-cccc-000000000001",
+        "text": "Prepare income drawdown projection for Edward & Claire — £40k/year from Sep 2026",
+        "assignee": "Advisor",
+        "done": false,
+        "dueDate": "2026-02-06T09:00:00.000Z"
+      },
+      {
+        "id": "item-0003-aaaa-bbbb-cccc-000000000002",
+        "text": "Get valuations on 3-bed properties near Richmond Park (TW9)",
+        "assignee": "Advisor",
+        "done": false,
+        "dueDate": "2026-02-06T09:00:00.000Z"
+      },
+      {
+        "id": "item-0003-aaaa-bbbb-cccc-000000000003",
+        "text": "Claire to confirm Ealing house sale timeline with estate agent",
+        "assignee": "Client",
+        "done": false,
+        "dueDate": "2026-02-06T09:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "meeting-a1b2c3d4-4444-4000-a000-000000000004",
+    "clientId": "client-004",
+    "botId": "bot-dummy-004",
+    "meetingDate": "2026-02-07T08:00:00.000Z",
+    "actionItems": [
+      {
+        "id": "item-0004-aaaa-bbbb-cccc-000000000001",
+        "text": "Open a Lifetime ISA for Omar's first home purchase — send application link",
+        "assignee": "Advisor",
+        "done": false,
+        "dueDate": "2026-02-09T08:00:00.000Z"
+      },
+      {
+        "id": "item-0004-aaaa-bbbb-cccc-000000000002",
+        "text": "Draft restaurant business plan financial projections for Omar's review",
+        "assignee": "Advisor",
+        "done": false,
+        "dueDate": "2026-02-09T08:00:00.000Z"
+      },
+      {
+        "id": "item-0004-aaaa-bbbb-cccc-000000000003",
+        "text": "Omar to decide on Rolls-Royce position — hold or take profits",
+        "assignee": "Client",
+        "done": false,
+        "dueDate": "2026-02-09T08:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "meeting-a1b2c3d4-5555-4000-a000-000000000005",
+    "clientId": "client-005",
+    "botId": "bot-dummy-005",
+    "meetingDate": "2026-02-06T16:00:00.000Z",
+    "actionItems": [
+      {
+        "id": "item-0005-aaaa-bbbb-cccc-000000000001",
+        "text": "Set up Junior ISAs for Sophie's two children — compare Vanguard vs Fidelity",
+        "assignee": "Advisor",
+        "done": false,
+        "dueDate": "2026-02-08T16:00:00.000Z"
+      },
+      {
+        "id": "item-0005-aaaa-bbbb-cccc-000000000002",
+        "text": "Sophie to confirm Greenwich viewing dates for Victorian terraces near Cutty Sark DLR",
+        "assignee": "Client",
+        "done": false,
+        "dueDate": "2026-02-08T16:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "meeting-a1b2c3d4-6666-4000-a000-000000000006",
+    "clientId": "client-001",
+    "botId": "bot-dummy-006",
+    "meetingDate": "2026-02-07T11:00:00.000Z",
+    "actionItems": [
+      {
+        "id": "item-0006-aaaa-bbbb-cccc-000000000001",
+        "text": "Rebalance James's portfolio — shift 5% from equities to Vanguard Global Bond Fund",
+        "assignee": "Advisor",
+        "done": false,
+        "dueDate": "2026-02-09T11:00:00.000Z"
+      },
+      {
+        "id": "item-0006-aaaa-bbbb-cccc-000000000002",
+        "text": "James to confirm if he wants to increase monthly ISA contribution from £500 to £750",
+        "assignee": "Client",
+        "done": false,
+        "dueDate": "2026-02-09T11:00:00.000Z"
+      }
+    ]
+  }
+]

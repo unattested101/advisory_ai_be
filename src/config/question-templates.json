@@ -1,0 +1,44 @@
+{
+  "templates": [
+    {
+      "id": "initial-discovery",
+      "name": "Initial Discovery",
+      "questions": [
+        "What is your current financial situation and income?",
+        "What are your short-term financial goals (next 1-3 years)?",
+        "What are your long-term financial goals (5+ years)?",
+        "Do you have any outstanding debts or liabilities?",
+        "What is your current risk tolerance?",
+        "Do you have an emergency fund in place?",
+        "What insurance policies do you currently hold?",
+        "Are there any major life events coming up (marriage, children, retirement)?"
+      ]
+    },
+    {
+      "id": "portfolio-review",
+      "name": "Portfolio Review",
+      "questions": [
+        "How do you feel about your portfolio's performance this quarter?",
+        "Have your financial goals or timeline changed since our last meeting?",
+        "Are there any holdings you'd like to increase or reduce exposure to?",
+        "Has your risk tolerance changed given recent market conditions?",
+        "Do you have any upcoming liquidity needs?",
+        "Would you like to explore any new asset classes or sectors?",
+        "Are you happy with the current income yield from your portfolio?",
+        "Do you want to review the fee structure on any of your funds?"
+      ]
+    },
+    {
+      "id": "follow-up",
+      "name": "Follow-Up",
+      "questions": [
+        "Have you had a chance to review the documents we sent?",
+        "Do you have any questions about the recommendations from last time?",
+        "Have you completed the action items from our previous meeting?",
+        "Has anything changed in your personal or financial situation?",
+        "Are you comfortable with the next steps we discussed?",
+        "Is there anything else you'd like to address today?"
+      ]
+    }
+  ]
+}

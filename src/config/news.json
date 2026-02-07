@@ -1,0 +1,92 @@
+[
+  {
+    "id": "news-001",
+    "headline": "Bank of England holds interest rates at 4.5% amid stubborn inflation",
+    "summary": "The BoE Monetary Policy Committee voted 7-2 to keep rates unchanged at 4.5%, citing persistent services inflation at 5.1%. Markets now price the first cut for Q3 2026.",
+    "source": "Financial Times",
+    "date": "2026-02-05",
+    "category": "interest_rates",
+    "relevantAreas": ["bonds", "savings", "mortgages"]
+  },
+  {
+    "id": "news-002",
+    "headline": "Battersea Power Station flats see 8% price correction as new builds flood market",
+    "summary": "Average prices for 2-bed flats near Battersea Power Station have dropped from £625k to £575k over the past quarter as several new developments complete simultaneously, creating a buyer's market.",
+    "source": "Evening Standard",
+    "date": "2026-02-04",
+    "category": "property",
+    "relevantAreas": ["Battersea", "London SW11", "property_purchase"]
+  },
+  {
+    "id": "news-003",
+    "headline": "FTSE 100 rallies to all-time high as mining and bank stocks surge",
+    "summary": "The FTSE 100 closed at 8,420, driven by strong earnings from Barclays (+6.2%), HSBC (+4.1%), and Rio Tinto (+5.8%). Analysts cite improving global demand outlook.",
+    "source": "Reuters",
+    "date": "2026-02-05",
+    "category": "equities",
+    "relevantAreas": ["FTSE 100", "banking_stocks", "Barclays", "HSBC"]
+  },
+  {
+    "id": "news-004",
+    "headline": "Croydon regeneration plan approved: £1.5bn investment to transform town centre",
+    "summary": "Croydon Council greenlit a massive regeneration scheme including 5,000 new homes, improved transport links, and commercial spaces. Property experts predict 15-20% price growth over 5 years.",
+    "source": "Property Week",
+    "date": "2026-02-03",
+    "category": "property",
+    "relevantAreas": ["Croydon", "London CR0", "buy_to_let", "property_purchase"]
+  },
+  {
+    "id": "news-005",
+    "headline": "UK Gilt yields drop sharply after weaker GDP data",
+    "summary": "10-year Gilt yields fell 15 basis points to 4.05% after Q4 GDP came in at -0.1%, raising expectations of earlier rate cuts. Bond fund prices rose across the board.",
+    "source": "Bloomberg",
+    "date": "2026-02-05",
+    "category": "bonds",
+    "relevantAreas": ["gilts", "bonds", "UK_economy"]
+  },
+  {
+    "id": "news-006",
+    "headline": "Greenwich property market heats up as Elizabeth Line effect kicks in",
+    "summary": "Average house prices in SE10 rose 4.3% QoQ with Victorian terraces particularly sought after. Estate agents report bidding wars on period properties near Cutty Sark.",
+    "source": "Rightmove",
+    "date": "2026-02-02",
+    "category": "property",
+    "relevantAreas": ["Greenwich", "London SE10", "property_purchase"]
+  },
+  {
+    "id": "news-007",
+    "headline": "Shell and BP announce record dividends as oil prices stabilise above $80",
+    "summary": "Shell increased its quarterly dividend by 4% while BP announced a £2bn share buyback. Both stocks rallied on the news with analysts upgrading price targets.",
+    "source": "The Times",
+    "date": "2026-02-04",
+    "category": "equities",
+    "relevantAreas": ["Shell", "BP", "energy_stocks", "dividends"]
+  },
+  {
+    "id": "news-008",
+    "headline": "Richmond upon Thames named London's top borough for retirees",
+    "summary": "A new Savills report ranks Richmond as the most desirable London borough for retirees, with excellent green spaces, transport, and healthcare. Average 3-bed prices sit at £720k, down 3% from peak.",
+    "source": "Savills Research",
+    "date": "2026-02-01",
+    "category": "property",
+    "relevantAreas": ["Richmond", "London TW9", "retirement", "property_purchase"]
+  },
+  {
+    "id": "news-009",
+    "headline": "Lewisham house prices dip 5% as buyers wait for rate cuts",
+    "summary": "First-time buyers in SE13 are holding off purchases hoping for mortgage rate reductions. Average 2-bed flat prices have softened to £395k, creating potential opportunities.",
+    "source": "Zoopla",
+    "date": "2026-02-03",
+    "category": "property",
+    "relevantAreas": ["Lewisham", "London SE13", "first_time_buyers", "property_purchase"]
+  },
+  {
+    "id": "news-010",
+    "headline": "AstraZeneca shares jump 9% on breakthrough cancer drug trial results",
+    "summary": "AstraZeneca's Phase 3 trial for lung cancer treatment showed 40% improvement in patient outcomes. The stock surged to a 52-week high, with analysts raising price targets by 15%.",
+    "source": "Financial Times",
+    "date": "2026-02-05",
+    "category": "equities",
+    "relevantAreas": ["AstraZeneca", "healthcare_stocks", "pharma"]
+  }
+]

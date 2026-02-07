@@ -1,0 +1,206 @@
+[
+  {
+    "id": "client-001",
+    "name": "James Whitfield",
+    "email": "james.whitfield@outlook.com",
+    "phone": "+44 7700 900123",
+    "riskProfile": "moderate",
+    "portfolio": {
+      "totalValue": 485000,
+      "currency": "GBP",
+      "holdings": [
+        { "asset": "Barclays PLC", "type": "equity", "value": 62000, "allocation": 12.8 },
+        { "asset": "HSBC Holdings", "type": "equity", "value": 55000, "allocation": 11.3 },
+        { "asset": "UK Gilts 10Y", "type": "bond", "value": 95000, "allocation": 19.6 },
+        { "asset": "iShares FTSE 100 ETF", "type": "etf", "value": 78000, "allocation": 16.1 },
+        { "asset": "Vanguard Global Bond Fund", "type": "bond", "value": 70000, "allocation": 14.4 },
+        { "asset": "Legal & General Property Fund", "type": "property_fund", "value": 45000, "allocation": 9.3 },
+        { "asset": "Cash (Savings)", "type": "cash", "value": 80000, "allocation": 16.5 }
+      ]
+    },
+    "goals": [
+      {
+        "id": "goal-001",
+        "title": "Buy a flat in Battersea",
+        "type": "property_purchase",
+        "targetAmount": 550000,
+        "currentSavings": 180000,
+        "targetDate": "2027-06-01",
+        "area": "Battersea, London SW11",
+        "notes": "Looking at 2-bed flats near Battersea Power Station"
+      },
+      {
+        "id": "goal-002",
+        "title": "Retirement fund growth",
+        "type": "retirement",
+        "targetAmount": 1200000,
+        "currentSavings": 485000,
+        "targetDate": "2042-01-01",
+        "notes": "Wants steady compounding, low-risk tilt after age 50"
+      }
+    ]
+  },
+  {
+    "id": "client-002",
+    "name": "Priya Sharma",
+    "email": "priya.sharma@gmail.com",
+    "phone": "+44 7700 900456",
+    "riskProfile": "aggressive",
+    "portfolio": {
+      "totalValue": 312000,
+      "currency": "GBP",
+      "holdings": [
+        { "asset": "Lloyds Banking Group", "type": "equity", "value": 40000, "allocation": 12.8 },
+        { "asset": "Shell PLC", "type": "equity", "value": 35000, "allocation": 11.2 },
+        { "asset": "Scottish Mortgage Trust", "type": "investment_trust", "value": 52000, "allocation": 16.7 },
+        { "asset": "ARK Innovation ETF", "type": "etf", "value": 38000, "allocation": 12.2 },
+        { "asset": "UK Gilts 5Y", "type": "bond", "value": 47000, "allocation": 15.1 },
+        { "asset": "Bitcoin (BTC)", "type": "crypto", "value": 28000, "allocation": 9.0 },
+        { "asset": "Cash (ISA)", "type": "cash", "value": 72000, "allocation": 23.0 }
+      ]
+    },
+    "goals": [
+      {
+        "id": "goal-003",
+        "title": "Purchase buy-to-let in Croydon",
+        "type": "property_purchase",
+        "targetAmount": 380000,
+        "currentSavings": 95000,
+        "targetDate": "2027-12-01",
+        "area": "Croydon, London CR0",
+        "notes": "Looking for rental yield above 5%"
+      },
+      {
+        "id": "goal-004",
+        "title": "Build a tech-heavy growth portfolio",
+        "type": "investment_growth",
+        "targetAmount": 500000,
+        "currentSavings": 312000,
+        "targetDate": "2030-01-01",
+        "notes": "Comfortable with volatility, wants exposure to AI and clean energy"
+      }
+    ]
+  },
+  {
+    "id": "client-003",
+    "name": "Edward & Claire Thompson",
+    "email": "e.thompson@proton.me",
+    "phone": "+44 7700 900789",
+    "riskProfile": "conservative",
+    "portfolio": {
+      "totalValue": 820000,
+      "currency": "GBP",
+      "holdings": [
+        { "asset": "UK Gilts 10Y", "type": "bond", "value": 210000, "allocation": 25.6 },
+        { "asset": "Vanguard LifeStrategy 40%", "type": "fund", "value": 185000, "allocation": 22.6 },
+        { "asset": "iShares Corporate Bond ETF", "type": "etf", "value": 120000, "allocation": 14.6 },
+        { "asset": "National Grid PLC", "type": "equity", "value": 65000, "allocation": 7.9 },
+        { "asset": "Unilever PLC", "type": "equity", "value": 58000, "allocation": 7.1 },
+        { "asset": "Cash (Premium Bonds)", "type": "cash", "value": 100000, "allocation": 12.2 },
+        { "asset": "L&G UK Property Fund", "type": "property_fund", "value": 82000, "allocation": 10.0 }
+      ]
+    },
+    "goals": [
+      {
+        "id": "goal-005",
+        "title": "Downsize and move to Richmond",
+        "type": "property_purchase",
+        "targetAmount": 750000,
+        "currentSavings": 420000,
+        "targetDate": "2028-09-01",
+        "area": "Richmond, London TW9",
+        "notes": "Selling current home in Ealing, want a smaller 3-bed near the park"
+      },
+      {
+        "id": "goal-006",
+        "title": "Income drawdown in retirement",
+        "type": "retirement",
+        "targetAmount": 40000,
+        "currentSavings": 820000,
+        "targetDate": "2026-09-01",
+        "notes": "Need £40k/year income from portfolio starting late 2026"
+      }
+    ]
+  },
+  {
+    "id": "client-004",
+    "name": "Omar Hussain",
+    "email": "omar.h@hussainventures.co.uk",
+    "phone": "+44 7700 900321",
+    "riskProfile": "aggressive",
+    "portfolio": {
+      "totalValue": 198000,
+      "currency": "GBP",
+      "holdings": [
+        { "asset": "Rolls-Royce Holdings", "type": "equity", "value": 30000, "allocation": 15.2 },
+        { "asset": "BP PLC", "type": "equity", "value": 25000, "allocation": 12.6 },
+        { "asset": "FTSE 250 ETF", "type": "etf", "value": 42000, "allocation": 21.2 },
+        { "asset": "Fundsmith Equity Fund", "type": "fund", "value": 38000, "allocation": 19.2 },
+        { "asset": "UK Gilts 2Y", "type": "bond", "value": 25000, "allocation": 12.6 },
+        { "asset": "Cash (Current Account)", "type": "cash", "value": 38000, "allocation": 19.2 }
+      ]
+    },
+    "goals": [
+      {
+        "id": "goal-007",
+        "title": "First home purchase in Lewisham",
+        "type": "property_purchase",
+        "targetAmount": 420000,
+        "currentSavings": 65000,
+        "targetDate": "2028-03-01",
+        "area": "Lewisham, London SE13",
+        "notes": "First-time buyer, wants to use Help to Buy ISA"
+      },
+      {
+        "id": "goal-008",
+        "title": "Start a business fund",
+        "type": "business",
+        "targetAmount": 100000,
+        "currentSavings": 38000,
+        "targetDate": "2027-06-01",
+        "notes": "Planning to open a restaurant, needs liquid capital"
+      }
+    ]
+  },
+  {
+    "id": "client-005",
+    "name": "Sophie Chen",
+    "email": "sophie.chen@architects.london",
+    "phone": "+44 7700 900654",
+    "riskProfile": "moderate",
+    "portfolio": {
+      "totalValue": 540000,
+      "currency": "GBP",
+      "holdings": [
+        { "asset": "AstraZeneca PLC", "type": "equity", "value": 72000, "allocation": 13.3 },
+        { "asset": "GSK PLC", "type": "equity", "value": 48000, "allocation": 8.9 },
+        { "asset": "Baillie Gifford Global Income", "type": "fund", "value": 95000, "allocation": 17.6 },
+        { "asset": "iShares MSCI World ETF", "type": "etf", "value": 88000, "allocation": 16.3 },
+        { "asset": "UK Gilts 10Y", "type": "bond", "value": 105000, "allocation": 19.4 },
+        { "asset": "Cash (Savings)", "type": "cash", "value": 62000, "allocation": 11.5 },
+        { "asset": "L&G UK Property Fund", "type": "property_fund", "value": 70000, "allocation": 13.0 }
+      ]
+    },
+    "goals": [
+      {
+        "id": "goal-009",
+        "title": "Buy a period home in Greenwich",
+        "type": "property_purchase",
+        "targetAmount": 680000,
+        "currentSavings": 250000,
+        "targetDate": "2027-09-01",
+        "area": "Greenwich, London SE10",
+        "notes": "Loves Victorian terraces, wants proximity to Cutty Sark DLR"
+      },
+      {
+        "id": "goal-010",
+        "title": "Children's university fund",
+        "type": "education",
+        "targetAmount": 150000,
+        "currentSavings": 42000,
+        "targetDate": "2035-09-01",
+        "notes": "Two children aged 5 and 7, wants Junior ISA and investment mix"
+      }
+    ]
+  }
+]
