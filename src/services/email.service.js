@@ -135,7 +135,6 @@ function buildImpactEmailHtml({
 
 /**
  * Send a news impact email to a client via Resend.
- * All emails are sent to annarana2002@gmail.com.
  */
 async function sendImpactEmail(
   recipientEmail,
@@ -163,7 +162,7 @@ async function sendImpactEmail(
   try {
     const { data, error } = await resend.emails.send({
       from: "Advisory AI <onboarding@resend.dev>",
-      to: "annarana2002@gmail.com",
+      to: recipientEmail,
       subject: `Advisory Update: ${shortHeadline}`,
       html,
     });
@@ -174,7 +173,7 @@ async function sendImpactEmail(
     }
 
     console.log(
-      `Email sent to ${recipientEmail} (routed to annarana2002@gmail.com): ${data.id}`,
+      `Email sent to ${recipientEmail}: ${data.id}`,
     );
     return { success: true, messageId: data.id };
   } catch (error) {
@@ -276,7 +275,6 @@ function buildActionItemEmailHtml({
 
 /**
  * Send an action item follow-up email to a client via Resend.
- * All emails are sent to annarana2002@gmail.com.
  */
 async function sendActionItemEmail(
   recipientEmail,
@@ -298,7 +296,7 @@ async function sendActionItemEmail(
   try {
     const { data, error } = await resend.emails.send({
       from: "Advisory AI <onboarding@resend.dev>",
-      to: "annarana2002@gmail.com",
+      to: recipientEmail,
       subject: `Action Item Follow-Up: ${shortAction}`,
       html,
     });
@@ -309,7 +307,7 @@ async function sendActionItemEmail(
     }
 
     console.log(
-      `Action item email sent to ${recipientEmail} (routed to annarana2002@gmail.com): ${data.id}`,
+      `Action item email sent to ${recipientEmail}: ${data.id}`,
     );
     return { success: true, messageId: data.id };
   } catch (error) {
