@@ -7,14 +7,14 @@
     "actionItems": [
       {
         "id": "item-0001-aaaa-bbbb-cccc-000000000001",
-        "text": "Review James's gilt allocation given the BoE rate hold — consider trimming UK Gilts 10Y",
+        "text": "Review Shashank's gilt allocation given the BoE rate hold — consider trimming UK Gilts 10Y",
         "assignee": "Advisor",
         "done": false,
         "dueDate": "2026-02-07T10:00:00.000Z"
       },
       {
         "id": "item-0001-aaaa-bbbb-cccc-000000000002",
-        "text": "Send James updated Battersea flat shortlist with prices under £550k",
+        "text": "Send Shashank updated Battersea flat shortlist with prices under £550k",
         "assignee": "Advisor",
         "done": false,
         "dueDate": "2026-02-07T10:00:00.000Z"
@@ -65,7 +65,7 @@
     "actionItems": [
       {
         "id": "item-0003-aaaa-bbbb-cccc-000000000001",
-        "text": "Prepare income drawdown projection for Edward & Claire — £40k/year from Sep 2026",
+        "text": "Prepare income drawdown projection for Roshan — £40k/year from Sep 2026",
         "assignee": "Advisor",
         "done": false,
         "dueDate": "2026-02-06T09:00:00.000Z"
@@ -79,7 +79,7 @@
       },
       {
         "id": "item-0003-aaaa-bbbb-cccc-000000000003",
-        "text": "Claire to confirm Ealing house sale timeline with estate agent",
+        "text": "Roshan to confirm Ealing house sale timeline with estate agent",
         "assignee": "Client",
         "done": false,
         "dueDate": "2026-02-06T09:00:00.000Z"
@@ -94,21 +94,21 @@
     "actionItems": [
       {
         "id": "item-0004-aaaa-bbbb-cccc-000000000001",
-        "text": "Open a Lifetime ISA for Omar's first home purchase — send application link",
+        "text": "Open a Lifetime ISA for Alan's first home purchase — send application link",
         "assignee": "Advisor",
         "done": false,
         "dueDate": "2026-02-09T08:00:00.000Z"
       },
       {
         "id": "item-0004-aaaa-bbbb-cccc-000000000002",
-        "text": "Draft restaurant business plan financial projections for Omar's review",
+        "text": "Draft restaurant business plan financial projections for Alan's review",
         "assignee": "Advisor",
         "done": false,
         "dueDate": "2026-02-09T08:00:00.000Z"
       },
       {
         "id": "item-0004-aaaa-bbbb-cccc-000000000003",
-        "text": "Omar to decide on Rolls-Royce position — hold or take profits",
+        "text": "Alan to decide on Rolls-Royce position — hold or take profits",
         "assignee": "Client",
         "done": false,
         "dueDate": "2026-02-09T08:00:00.000Z"
@@ -145,14 +145,14 @@
     "actionItems": [
       {
         "id": "item-0006-aaaa-bbbb-cccc-000000000001",
-        "text": "Rebalance James's portfolio — shift 5% from equities to Vanguard Global Bond Fund",
+        "text": "Rebalance Shashank's portfolio — shift 5% from equities to Vanguard Global Bond Fund",
         "assignee": "Advisor",
         "done": false,
         "dueDate": "2026-02-09T11:00:00.000Z"
       },
       {
         "id": "item-0006-aaaa-bbbb-cccc-000000000002",
-        "text": "James to confirm if he wants to increase monthly ISA contribution from £500 to £750",
+        "text": "Shashank to confirm if he wants to increase monthly ISA contribution from £500 to £750",
         "assignee": "Client",
         "done": false,
         "dueDate": "2026-02-09T11:00:00.000Z"
