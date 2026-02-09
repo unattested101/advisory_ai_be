@@ -1,12 +1,6 @@
-const nodemailer = require("nodemailer");
+const { Resend } = require("resend");
 
-const transporter = nodemailer.createTransport({
-  service: "gmail",
-  auth: {
-    user: process.env.GMAIL_USER,
-    pass: process.env.GMAIL_APP_PASSWORD,
-  },
-});
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 /**
  * Build a polished HTML email for a news impact advisory.
@@ -140,8 +134,8 @@ function buildImpactEmailHtml({
 }
 
 /**
- * Send a news impact email to a client.
- * For now, all emails are sent to the hardcoded test address.
+ * Send a news impact email to a client via Resend.
+ * All emails are sent to annarana2002@gmail.com.
  */
 async function sendImpactEmail(
   recipientEmail,
@@ -166,22 +160,26 @@ async function sendImpactEmail(
       ? newsArticle.headline.slice(0, 57) + "..."
       : newsArticle.headline;
 
-  const mailOptions = {
-    from: `"Advisory AI" <${process.env.GMAIL_USER}>`,
-    to: "annarana2002@gmail.com", // Hardcoded override for now
-    subject: `Advisory Update: ${shortHeadline}`,
-    html,
-  };
-
   try {
-    const info = await transporter.sendMail(mailOptions);
+    const { data, error } = await resend.emails.send({
+      from: "Advisory AI <onboarding@resend.dev>",
+      to: "annarana2002@gmail.com",
+      subject: `Advisory Update: ${shortHeadline}`,
+      html,
+    });
+
+    if (error) {
+      console.error("Resend email error:", error);
+      throw new Error("Failed to send email: " + error.message);
+    }
+
     console.log(
-      `Email sent to ${recipientEmail} (routed to test): ${info.messageId}`,
+      `Email sent to ${recipientEmail} (routed to annarana2002@gmail.com): ${data.id}`,
     );
-    return { success: true, messageId: info.messageId };
+    return { success: true, messageId: data.id };
   } catch (error) {
     console.error("Email send error:", error);
-    throw new Error("Failed to send email: " + error.message);
+    throw new Error("Failed to send email: " + (error.message || error));
   }
 }
 
@@ -277,7 +275,8 @@ function buildActionItemEmailHtml({
 }
 
 /**
- * Send an action item follow-up email to a client.
+ * Send an action item follow-up email to a client via Resend.
+ * All emails are sent to annarana2002@gmail.com.
  */
 async function sendActionItemEmail(
   recipientEmail,
@@ -296,22 +295,26 @@ async function sendActionItemEmail(
       ? actionItemText.slice(0, 47) + "..."
       : actionItemText;
 
-  const mailOptions = {
-    from: `"Advisory AI" <${process.env.GMAIL_USER}>`,
-    to: "annarana2002@gmail.com", // Hardcoded override for now
-    subject: `Action Item Follow-Up: ${shortAction}`,
-    html,
-  };
-
   try {
-    const info = await transporter.sendMail(mailOptions);
+    const { data, error } = await resend.emails.send({
+      from: "Advisory AI <onboarding@resend.dev>",
+      to: "annarana2002@gmail.com",
+      subject: `Action Item Follow-Up: ${shortAction}`,
+      html,
+    });
+
+    if (error) {
+      console.error("Resend action item email error:", error);
+      throw new Error("Failed to send email: " + error.message);
+    }
+
     console.log(
-      `Action item email sent to ${recipientEmail} (routed to test): ${info.messageId}`,
+      `Action item email sent to ${recipientEmail} (routed to annarana2002@gmail.com): ${data.id}`,
     );
-    return { success: true, messageId: info.messageId };
+    return { success: true, messageId: data.id };
   } catch (error) {
     console.error("Action item email send error:", error);
-    throw new Error("Failed to send email: " + error.message);
+    throw new Error("Failed to send email: " + (error.message || error));
   }
 }
 
