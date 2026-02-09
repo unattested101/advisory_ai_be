@@ -1,8 +1,8 @@
 [
   {
     "id": "client-001",
-    "name": "James Whitfield",
-    "email": "james.whitfield@outlook.com",
+    "name": "Shashank",
+    "email": "shashank@advisoryai.com",
     "phone": "+44 7700 900123",
     "riskProfile": "moderate",
     "portfolio": {
@@ -83,8 +83,8 @@
   },
   {
     "id": "client-003",
-    "name": "Edward & Claire Thompson",
-    "email": "e.thompson@proton.me",
+    "name": "Roshan",
+    "email": "roshan@advisoryai.com",
     "phone": "+44 7700 900789",
     "riskProfile": "conservative",
     "portfolio": {
@@ -124,8 +124,8 @@
   },
   {
     "id": "client-004",
-    "name": "Omar Hussain",
-    "email": "omar.h@hussainventures.co.uk",
+    "name": "Alan",
+    "email": "alan@advisoryai.com",
     "phone": "+44 7700 900321",
     "riskProfile": "aggressive",
     "portfolio": {
